@@ -2005,10 +2005,7 @@ input, select, textarea {
 		}
 		
 		#sight {
-			padding: 3.5em 5em 3.5em 5em ;
-			width: 100%;
 			border-top-width: 0;
-			position: relative;
 		}
 
 			/* .features section:nth-child(-n + 2) { */
@@ -2207,7 +2204,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 1.5em 1.5em 1.5em 1.5em ;
 			}
 
 				.features section .icon {
@@ -2220,7 +2217,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 1.5em 1.5em 1.5em 1.5em ;
 			}
 
 				.features section .icon {
