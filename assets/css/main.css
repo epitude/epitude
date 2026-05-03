@@ -2620,8 +2620,30 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+/* Photos */
+
+	.photos {
+		border-radius: 0.25em;
+		height: 15em;
+	}
+	
+	.teaserphotos {
+		border-radius: 0.5em;
+		height: 15em;
+	}
+	
+	#teaserphotos {
+		box-sizing: initial;
+	}
+	
+/* Logos */
+
 #logo {
 	height: 15em;
+	}
+#logo_photos {
+	height: 4em;
 	}
 #logo-youtube {
 	height: 2em;
@@ -2629,6 +2651,16 @@ input, select, textarea {
 	}
 #logo-instagram {
 	height: 2em;
+	}
+#bouton-stream {
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+	}
+#bouton-photos {
+	margin-top: 2em;
+	}
+#eee {
+	margin-bottom: 1em;
 	}
 
 /* List */
@@ -3049,7 +3081,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-			}
+			} 
 
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
@@ -3407,6 +3439,7 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			text-align: right;
+			align-content: center;
 		}
 
 			#header > nav > ul {
