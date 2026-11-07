@@ -2637,6 +2637,12 @@ input, select, textarea {
 		box-sizing: initial;
 	}
 	
+	#credits {
+		font-size: 0.95em;
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 0.5em;
+	}
+	
 /* Logos */
 
 #logo {
@@ -2651,6 +2657,10 @@ input, select, textarea {
 	}
 #logo-instagram {
 	height: 2em;
+	padding-right: 1em;
+	}
+#logo-facebook {
+	height: 2em;
 	}
 #bouton-stream {
 	margin-top: 0.5em;
@@ -2661,6 +2671,9 @@ input, select, textarea {
 	}
 #eee {
 	margin-bottom: 1em;
+	}
+#bio {
+	margin-top: 2em;
 	}
 
 /* List */
